@@ -1,0 +1,38 @@
+import 'package:lab_1/model/lab_words.dart';
+
+final List<LabWord> labWords = [
+  LabWord('abacus', 'a frame with beads for counting'),
+  LabWord('benevolent', 'kind and generous'),
+  LabWord('cathartic', 'providing psychological relief'),
+  LabWord('dichotomy', 'a division into two contrasting parts'),
+  LabWord('ephemeral', 'lasting for a very short time'),
+  LabWord('facetious', 'treating serious issues with inappropriate humor'),
+  LabWord('garrulous', 'excessively talkative'),
+  LabWord('histrionic', 'overly theatrical or melodramatic'),
+  LabWord(
+      'iconoclast', 'a person who attacks cherished beliefs or institutions'),
+  LabWord('juxtaposition',
+      'the act of placing two things next to each other for comparison'),
+  LabWord('kaleidoscope', 'a antly changing pattern or sequence of elements'),
+  LabWord('labyrinth', 'a complicated irregular network of passages or paths'),
+  LabWord('mellifluous', 'sweet or musical; pleasant to hear'),
+  LabWord('nefarious', 'wicked or criminal'),
+  LabWord('obfuscate', 'to make something unclear or difficult to understand'),
+  LabWord('panacea', 'a solution or remedy for all problems or difficulties'),
+  LabWord('quintessential',
+      'representing the most perfect or typical example of a quality or class'),
+  LabWord('resilient', 'able to recover quickly from difficult conditions'),
+  LabWord('serendipity',
+      'the occurrence and development of events by chance in a happy or beneficial way'),
+  LabWord('taciturn', 'reserved or uncommunicative in speech; saying little'),
+  LabWord('ubiquitous', 'present, appearing, or found everywhere'),
+  LabWord('vexatious', 'causing annoyance, frustration, or worry'),
+  LabWord(
+      'wistful', 'having or showing a feeling of vague or regretful longing'),
+  LabWord('xenophobia',
+      'intense or irrational dislike or fear of people from other countries'),
+  LabWord('yoke',
+      'a wooden crosspiece that is fastened over the necks of two animals and attached to the plow or cart that they are to pull'),
+  LabWord('zealot',
+      'a person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals'),
+];
