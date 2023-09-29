@@ -76,9 +76,18 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Lab 1 Words"),
+        title: const Text(
+          "Lab 1 Words",
+          style: TextStyle(color: Colors.yellow),
+        ),
         actions: [
-          IconButton(onPressed: _pushSaved, icon: const Icon(Icons.list))
+          IconButton(
+            onPressed: _pushSaved,
+            icon: const Icon(
+              Icons.list,
+              color: Colors.yellow,
+            ),
+          )
         ],
       ),
       body: _buildList(),
