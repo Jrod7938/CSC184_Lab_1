@@ -2,7 +2,7 @@
 
 ![CSC184Lab1](github/CSC184Lab1.gif)
 
-Adding the following requirements on top of the app:
+Added the following requirements on top of the app:
 
 ✅ Change Color of App to Color of your choosing (30 pts)
 
