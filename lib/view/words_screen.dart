@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:lab_1/model/lab_words.dart';
 import 'package:lab_1/data/words.dart';
 
-class RandomWords extends StatefulWidget {
-  const RandomWords({super.key});
+class WordsScreen extends StatefulWidget {
+  const WordsScreen({super.key});
 
   @override
-  RandomWordsState createState() => RandomWordsState();
+  WordsScreenState createState() => WordsScreenState();
 }
 
-class RandomWordsState extends State<RandomWords> {
+class WordsScreenState extends State<WordsScreen> {
   final List<LabWord> savedWords = [];
 
   Widget _buildList() {
@@ -46,7 +46,11 @@ class RandomWordsState extends State<RandomWords> {
       MaterialPageRoute(
         builder: (context) {
           return Scaffold(
-            appBar: AppBar(title: const Text('Saved Words')),
+            appBar: AppBar(
+                title: const Text(
+              'Saved Words',
+              style: TextStyle(color: Colors.yellow),
+            )),
             body: ListView(
               children: [
                 for (final word in savedWords)

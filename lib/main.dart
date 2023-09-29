@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'view/random_words.dart';
+import 'view/words_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: const RandomWords(),
+      home: const WordsScreen(),
     );
   }
 }
