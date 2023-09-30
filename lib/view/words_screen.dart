@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lab_1/model/lab_words.dart';
 import 'package:lab_1/data/words.dart';
+import 'package:lab_1/view/saved_words_screen.dart';
 
 class WordsScreen extends StatefulWidget {
   const WordsScreen({super.key});
@@ -45,32 +46,7 @@ class WordsScreenState extends State<WordsScreen> {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) {
-          return Scaffold(
-            appBar: AppBar(
-                title: const Text(
-              'Saved Words',
-              style: TextStyle(color: Colors.yellow),
-            )),
-            body: ListView(
-              children: [
-                for (final word in savedWords)
-                  ListTile(
-                    title: Text(word.word),
-                    onTap: () {
-                      showDialog(
-                        context: context,
-                        builder: (context) {
-                          return AlertDialog(
-                            title: Text(word.word),
-                            content: Text(word.definition),
-                          );
-                        },
-                      );
-                    },
-                  ),
-              ],
-            ),
-          );
+          return SavedWordsScreen(savedWords: savedWords);
         },
       ),
     );
