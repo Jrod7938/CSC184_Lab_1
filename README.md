@@ -1,5 +1,8 @@
 # Lab 1 - Flutter/Dart (CSC184 Mobile Device Programing)
 
+## Web Application
+[Web Application Link](https://jrod7938.github.io/CSC184_Lab_1/)
+
 ![CSC184Lab1](github/CSC184Lab1.gif)
 
 Added the following requirements on top of the app:
