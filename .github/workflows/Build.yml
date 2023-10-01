@@ -22,7 +22,7 @@ jobs:
       run: flutter build apk --release
 
     - name: Build IPA
-      run: flutter build ios --release --no-codesign  # No code signing for simplicity
+      run: flutter build ipa --release --no-codesign  # No code signing for simplicity
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v2
